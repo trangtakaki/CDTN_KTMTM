@@ -25,4 +25,8 @@ class PageController extends Controller
     public function getGioiThieu(){
     	return view('page.gioithieu');
     }
+
+    public function getDanhsach(){
+        return view('admin.loaiSP.danhsach');
+    }
 }

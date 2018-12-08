@@ -39,3 +39,12 @@ Route::get('gioi-thieu',[
 	'as'=>'gioithieu',
 	'uses'=>'PageController@getGioiThieu'
 ]);
+
+Route::get('danh-sach',[
+	'as'=>'danhsach',
+	'uses'=>'PageController@getDanhsach'
+]);
+
+//Route::get('thu',function(){
+//	return view('admin.loaiSP.danhsach')
+//});
